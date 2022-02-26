@@ -15,11 +15,18 @@
 - PostgreSQL 12.4
 
 ## Установка:
-Для установки Docker выполните следующие команды:
+
+1. Клонируйте репозиторий на локальный компьютер
+2. Создайте и активируйте виртуальное окружение
+```bash
+python3 -m venv venv
+. venv/bin/activate
 ```
-- curl -fsSL https://get.docker.com -o get-docker.sh
-sh get-docker.sh 
+3. Установите зависимости
+```bash
+pip install -r requirements.txt
 ```
+
 
 ## Подготовка инфраструктуры:
 
