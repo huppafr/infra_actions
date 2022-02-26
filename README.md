@@ -20,21 +20,6 @@
 - curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh 
 ```
-Далее используйте следущие команды:
-1. Создайте папку yamdb
-```
-- mkdir foodgram
-```
-И скопируйте туда проект
-
-2. Создайте .env файл со следующим содержимым:
-```
-DB_NAME=postgres
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres
-DB_HOST=db
-DB_PORT=5432
-```
 
 ## Подготовка инфраструктуры:
 
