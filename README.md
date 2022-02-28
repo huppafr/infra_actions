@@ -44,6 +44,5 @@ pip install -r requirements.txt
 ``` docker-compose exec backend python manage.py collectstatic ```
 
 ## Автор
-
 - Хюппенен Артём
 
